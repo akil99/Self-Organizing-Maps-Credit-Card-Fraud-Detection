@@ -23,7 +23,7 @@ pcolor(som.distance_map().T)
 colorbar()
 markers = ['o', 's']
 colors = ['r', 'g']
-#green circles - customers approved by bank
+#green squares - customers approved by bank
 #red circles - customers rejected by bank
 for i, x in enumerate(X):
     w = som.winner(x)   #w - winning neuron(BMU)
